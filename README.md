@@ -41,10 +41,10 @@ Este dashboard de Streamlit proporciona un análisis interactivo de datos financ
 
 2. Ejecute el dashboard con:
    ```
-   streamlit run financial_dashboard.py
+   streamlit run main.py
    ```
 
-3. Abra su navegador y vaya a `http://localhost:8501` para ver el dashboard.
+3. Abra su navegador y vaya a `https://dashboardsolvenciasam.streamlit.app/` para ver el dashboard.
 
 ## Estructura de datos
 
@@ -67,7 +67,7 @@ El dashboard espera un archivo CSV con las siguientes columnas:
 
 ## Personalización
 
-Puede personalizar el dashboard modificando el script `financial_dashboard.py`. Algunas ideas para extender la funcionalidad incluyen:
+Puede personalizar el dashboard modificando el script `main.py`. Algunas ideas para extender la funcionalidad incluyen:
 
 - Agregar más visualizaciones o métricas financieras
 - Implementar la capacidad de descargar datos filtrados
@@ -77,6 +77,6 @@ Puede personalizar el dashboard modificando el script `financial_dashboard.py`. 
 
 Las contribuciones son bienvenidas. Por favor, abra un issue para discutir cambios mayores antes de enviar un pull request.
 
-## Licencia
+## Intehgración con ChatGPT
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulte el archivo `LICENSE` para más detalles.
+Se pueden hacer preguntas sobre análisis financiero.
